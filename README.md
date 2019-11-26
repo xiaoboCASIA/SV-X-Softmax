@@ -8,8 +8,7 @@ Thank **Shuo Wang** and **Shifeng Zhang** for their helpful discussion and sugge
 
 ## Introduction
 This is an implementation of our SV-X-Softmax loss by **Pytorch** library. The repository contains the fc_layers.py and loss.py
-The old version: \
-"Support Vector Guided Softmax Loss for Face Recognition" [arxiv](https://arxiv.org/abs/1812.11317) \
+The old version: "Support Vector Guided Softmax Loss for Face Recognition" [arxiv](https://arxiv.org/abs/1812.11317) \
 is implemented by **Caffe** library and does not remove the overlaps between training set and test set. The performance comparsion 
 may not be fair in the old version.
 
@@ -27,10 +26,10 @@ The AttentionNet-IRSE network used in our paper is derived from the papers:
 
 
 ## Others
-1. Note that our new loss is based on the well-clean training sets, when facing new datasets, one may need to clean them. 
-2. On the small test set like LFW, the improvement may not be obvious. It may be better to see the comparision on MegaFace or more large-scale 
-test set. 
+1. Note that our new loss is based on the well-cleaned training sets, when facing new datasets, one may need to clean them. 
+2. On the small test set like LFW, the improvement may not be obvious. It may be better to see the comparision on MegaFace or more large-scale test set. 
 3. Both training from stratch and finetuning are ok. One may try more training strategies.
+4. We won the **1st** place in [RLQ](https://www.forlq.org/) challenge (all four tracks) and **2st** place in [LFR](http://www.insightface-challenge.com/overview) challenge (deepglint-large track)
 
 ## Citation
 If you find SV-X-Softmax helps your research, please cite our paper:
