@@ -4,7 +4,7 @@ discriminative feature learning. For more details, one can refer to our paper: \
 "Mis-classifided Vector Guided Softmax Loss for Face Recognition" [arxiv](http://www.cbsr.ia.ac.cn/users/xiaobowang/papers/AAAI2020.pdf) \
 In AAAI Conference on Artificial Intelligence (AAAI) 2020, **Oral** Presentation. \
 ![alt](https://github.com/xiaoboCASIA/SV-X-Softmax/blob/master/figure1.png) \
-Thank **Shuo Wang** and **Shifeng Zhang** for their helpful discussion and suggestion.
+Thank **Shifeng Zhang** and **Shuo Wang** for their helpful discussion and suggestion.
 
 ## Introduction
 This is an implementation of our SV-X-Softmax loss by **Pytorch** library. The repository contains the fc_layers.py and loss.py
